@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "fancydelight",
+	"version": "${version}",
+	"name": "FancyDelight",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Leah - Lead Dev, Labcoat_Cactus - contributor, Phenix - Contributor"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "ARR",
+	"icon": "assets/fancydelight/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.leah.fancydelight.FancyDelight"
+		],
+		"client": [
+			"net.leah.fancydelight.FancyDelightClient"
+		],
+		"fabric-datagen": [
+			"net.leah.fancydelight.FancyDelightDataGenerator"
+		]
+	},
+	"mixins": [
+		"fancydelight.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

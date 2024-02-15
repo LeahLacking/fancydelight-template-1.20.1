@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "bites=0": {
+      "model": "fancydelight:block/udon_noodles_block"
+    },
+    "bites=1": {
+      "model": "fancydelight:block/udon_noodles_block_bite1"
+    },
+    "bites=2": {
+      "model": "fancydelight:block/udon_noodles_block_bite2"
+    }
+  }
+}
