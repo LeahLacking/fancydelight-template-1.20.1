@@ -17,5 +17,6 @@ public class FancyDelightClient implements ClientModInitializer {
         ModItemGroups.registerItemGroups();
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.UDON_NOODLES_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CHOCOLATE_LAVA_CAKE_BLOCK, RenderLayer.getCutout());
     }
 }

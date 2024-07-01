@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BB ",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "fancydelight:wide_bread"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WC ",
+    "TB ",
+    "   "
+  ],
+  "key": {
+    "C": {
+      "item": "farmersdelight:cabbage"
+    },
+    "W": {
+      "item": "fancydelight:wide_bread"
+    },
+    "T": {
+      "item": "farmersdelight:tomato"
+    },
+    "B": {
+      "item": "farmersdelight:beef_patty"
+    }
+  },
+  "result": {
+    "item": "fancydelight:estrogen_burger"
+  }
+}

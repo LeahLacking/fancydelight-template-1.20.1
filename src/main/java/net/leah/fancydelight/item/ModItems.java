@@ -32,10 +32,26 @@ public class ModItems {
             new Item(new FabricItemSettings().food(ModFoodComponents.PULLA)));
     public static final Item ICE_CREAM = registerItem("ice_cream",
             new Item(new FabricItemSettings().food(ModFoodComponents.PULLA)));
-    public static final Item LAVA_CAKE = registerItem("lava_cake",
-            new Item(new FabricItemSettings().food(ModFoodComponents.PULLA)));
+    public static final Item CHOCOLATE_LAVA_CAKE = registerItem("chocolate_lava_cake",
+            new BlockItem(ModBlocks.CHOCOLATE_LAVA_CAKE_BLOCK,new FabricItemSettings()));
     public static final Item ESTROGEN_BURGER = registerItem("estrogen_burger",
             new Item(new FabricItemSettings().food(ModFoodComponents.PULLA)));
+
+    public static final Item PESTO_PASTA = registerItem("pesto_pasta",
+            new Item(new FabricItemSettings().food(ModFoodComponents.PULLA)));
+
+    public static final Item CHOCOLATE_BAR = registerItem("chocolate_bar",
+            new Item(new FabricItemSettings().food(ModFoodComponents.PULLA)));
+
+    public static final Item RICE_PUDDING = registerItem("rice_pudding",
+            new Item(new FabricItemSettings().food(ModFoodComponents.PULLA)));
+
+    public static final Item FRIED_RICE = registerItem("fried_rice",
+            new Item(new FabricItemSettings().food(ModFoodComponents.PULLA)));
+
+    public static final Item FLOUR = registerItem("flour",
+            new Item(new FabricItemSettings()));
+
 
 
 

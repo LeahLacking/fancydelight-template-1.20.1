@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BF ",
+    "P  ",
+    "   "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bowl"
+    },
+    "F": {
+      "item": "fancydelight:flour"
+    },
+    "P": {
+      "item": "farmersdelight:raw_pasta"
+    }
+  },
+  "result": {
+    "item": "fancydelight:udon_noodles"
+  }
+}

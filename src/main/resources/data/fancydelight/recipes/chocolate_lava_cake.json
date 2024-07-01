@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " b ",
+    " c ",
+    " b "
+  ],
+  "key": {
+    "b": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "c": {
+      "item": "minecraft:cake"
+    }
+  },
+  "result": {
+    "item": "fancydelight:chocolate_lava_cake"
+  }
+}

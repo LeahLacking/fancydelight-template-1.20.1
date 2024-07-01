@@ -31,10 +31,15 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SUSHI, Models.GENERATED);
         itemModelGenerator.register(ModItems.UDON_NOODLES, Models.GENERATED);
         itemModelGenerator.register(ModItems.ICE_CREAM, Models.GENERATED);
-        itemModelGenerator.register(ModItems.LAVA_CAKE, Models.GENERATED);
         itemModelGenerator.register(ModItems.CLAM_CHOWDER, Models.GENERATED);
         itemModelGenerator.register(ModItems.WIDE_BREAD, Models.GENERATED);
         itemModelGenerator.register(ModItems.ESTROGEN_BURGER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PESTO_PASTA, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RICE_PUDDING, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHOCOLATE_BAR, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHOCOLATE_LAVA_CAKE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FRIED_RICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FLOUR, Models.GENERATED);
 
 
 

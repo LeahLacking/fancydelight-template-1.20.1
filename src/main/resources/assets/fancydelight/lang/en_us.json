@@ -1,10 +1,24 @@
 {
-  "item.splintered.katsu_curry": "Curry Katsu Don",
-  "item.splintered.estrogen_waffle": "Estrogen Waffle",
-  "item.splintered.udon_noodles": "Udon Noodles",
-  "item.splintered.pulla": "Pulla",
-  "item.splintered.pretzel": "Pretzel",
-  "item.splintered.sushi": "Sushi",
+  "item.fancydelight.katsu_curry": "Curry Katsu Don",
+  "item.fancydelight.estrogen_waffle": "Estrogen Waffle",
+  "item.fancydelight.udon_noodles": "Udon Noodles",
+  "item.fancydelight.pulla": "Chocolate Dipped Pulla",
+  "item.fancydelight.pretzel": "Chocolate Dipped Pretzel",
+  "item.fancydelight.sushi": "Sushi",
+  "item.fancydelight.wide_bread": "Wide Bread",
+  "item.fancydelight.clam_chowder": "Clam Chowder",
+  "item.fancydelight.ice_cream": "Ice Cream Sundae",
+  "item.fancydelight.chocolate_lava_cake": "Chocolate Lava Cake",
+  "item.fancydelight.pesto_pasta": "Pesto Pasta",
+  "item.fancydelight.rice_pudding": "Rice Pudding",
+  "item.fancydelight.chocolate_bar": "Chocolate Bar",
+  "item.fancydelight.fried_rice": "Fried Rice",
+  "item.fancydelight.estrogen_burger": "Estrogen Burger",
+  "item.fancydelight.flour": "Wheat Flour",
+
+
+  "block.fancydelight.chocolate_lava_cake_block": "Chocolate Lava Cake",
+  "block.fancydelight.udon_noodles_block": "Udon Noodles",
 
 
 

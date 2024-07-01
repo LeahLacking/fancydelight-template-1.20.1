@@ -9,7 +9,6 @@ import net.minecraft.stat.Stats;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.IntProperty;
 import net.minecraft.state.property.Properties;
-import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
@@ -23,8 +22,8 @@ import net.minecraft.world.WorldAccess;
 import net.minecraft.world.WorldView;
 import net.minecraft.world.event.GameEvent;
 
-public class UdonNoodlesBlock extends Block {
-    public static final int MAX_BITES = 0;
+public class ChocolateLavaCakeBlock extends Block {
+    public static final int MAX_BITES = 3;
     public static final IntProperty BITES = Properties.BITES;
     public static final int DEFAULT_COMPARATOR_OUTPUT = CakeBlock.getComparatorOutput(0);
     protected static final float field_31047 = 1.0f;
@@ -81,7 +80,7 @@ public class UdonNoodlesBlock extends Block {
 
             Block.createCuboidShape(0, 0, 0,16, 1, 16)};
 
-    public UdonNoodlesBlock(AbstractBlock.Settings settings) {
+    public ChocolateLavaCakeBlock(Settings settings) {
         super(settings);
         this.setDefaultState((BlockState) ((BlockState)this.stateManager.getDefaultState()).with(BITES, 0));
     }
@@ -95,14 +94,14 @@ public class UdonNoodlesBlock extends Block {
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         ItemStack itemStack = player.getStackInHand(hand);;
         if (world.isClient) {
-            if (UdonNoodlesBlock.tryEat(world, pos, state, player).isAccepted()) {
+            if (ChocolateLavaCakeBlock.tryEat(world, pos, state, player).isAccepted()) {
                 return ActionResult.SUCCESS;
             }
             if (itemStack.isEmpty()) {
                 return ActionResult.CONSUME;
             }
         }
-        return UdonNoodlesBlock.tryEat(world, pos, state, player);
+        return ChocolateLavaCakeBlock.tryEat(world, pos, state, player);
     }
 
     protected static ActionResult tryEat(WorldAccess world, BlockPos pos, BlockState state, PlayerEntity player) {
@@ -113,7 +112,7 @@ public class UdonNoodlesBlock extends Block {
         player.getHungerManager().add(3, 0.1f);
         int i = state.get(BITES);
         world.emitGameEvent((Entity)player, GameEvent.EAT, pos);
-        if (i < 0) {
+        if (i < 3) {
             world.setBlockState(pos, (BlockState)state.with(BITES, i + 1), Block.NOTIFY_ALL);
         } else {
             world.removeBlock(pos, false);

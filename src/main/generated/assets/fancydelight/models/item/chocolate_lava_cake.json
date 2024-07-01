@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "fancydelight:item/lava_cake"
+    "layer0": "fancydelight:item/chocolate_lava_cake"
   }
 }

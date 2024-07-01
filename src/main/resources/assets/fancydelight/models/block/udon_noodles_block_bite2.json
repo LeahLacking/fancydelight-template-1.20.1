@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "udon_noodles",
+	"parent": "fancydelight:udon_noodles_block",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "fancydelight:block/udon_noodles_block_bite2",
+		"0": "fancydelight:block/udon_noodles_block",
 		"1": "block/stripped_spruce_log",
-		"particle": "fancydelight:block/udon_noodles_block_bite2"
+		"particle": "fancydelight:block/udon_noodles_block"
 	},
 	"elements": [
 		{

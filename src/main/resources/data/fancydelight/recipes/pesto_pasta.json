@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BF ",
+    "P  ",
+    "   "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:fern"
+    },
+    "F": {
+      "item": "farmersdelight:cabbage"
+    },
+    "P": {
+      "item": "farmersdelight:raw_pasta"
+    }
+  },
+  "result": {
+    "item": "fancydelight:pesto_pasta"
+  }
+}

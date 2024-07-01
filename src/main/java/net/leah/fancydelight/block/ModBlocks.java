@@ -3,6 +3,7 @@ package net.leah.fancydelight.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.leah.fancydelight.FancyDelight;
+import net.leah.fancydelight.block.custom.ChocolateLavaCakeBlock;
 import net.leah.fancydelight.block.custom.UdonNoodlesBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -17,6 +18,8 @@ public class ModBlocks {
 
     public static final Block UDON_NOODLES_BLOCK = registerBlock("udon_noodles_block",
             new UdonNoodlesBlock(FabricBlockSettings.copyOf(Blocks.CAKE).nonOpaque()));
+    public static final Block CHOCOLATE_LAVA_CAKE_BLOCK = registerBlock("chocolate_lava_cake_block",
+            new ChocolateLavaCakeBlock(FabricBlockSettings.copyOf(Blocks.CAKE).nonOpaque()));
 
 
     private static Block registerBlock(String name, Block block) {

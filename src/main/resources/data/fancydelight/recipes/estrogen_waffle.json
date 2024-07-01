@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BF ",
+    "P  ",
+    "   "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "F": {
+      "item": "fancydelight:flour"
+    },
+    "P": {
+      "item": "farmersdelight:wheat_dough"
+    }
+  },
+  "result": {
+    "item": "fancydelight:estrogen_waffle"
+  }
+}

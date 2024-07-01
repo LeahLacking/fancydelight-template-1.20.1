@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BF ",
+    "P  ",
+    "   "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:dried_kelp"
+    },
+    "F": {
+      "item": "minecraft:salmon"
+    },
+    "P": {
+      "item": "farmersdelight:cabbage"
+    }
+  },
+  "result": {
+    "item": "fancydelight:sushi"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "bites=0": {
+      "model": "fancydelight:block/chocolate_lava_cake_block"
+    },
+    "bites=1": {
+      "model": "fancydelight:block/chocolate_lava_cake_block_bite1"
+    },
+    "bites=2": {
+      "model": "fancydelight:block/chocolate_lava_cake_block_bite2"
+    },
+    "bites=3": {
+      "model": "fancydelight:block/chocolate_lava_cake_block_bite3"
+    }
+  }
+}

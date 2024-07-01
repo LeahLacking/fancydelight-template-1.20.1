@@ -1,12 +1,17 @@
-// 1.20.1	2024-02-13T11:20:17.651248	FancyDelight/Model Definitions
-f506b878ea5aafa30e24dc09e8db2330dfb39641 assets/fancydelight/models/item/lava_cake.json
-5b4729253e18a602c7a865366d70adb80e2dc2bb assets/fancydelight/models/item/katsu_curry.json
-ed7ae37af60da2d229dce72429ef4ca352c858ba assets/fancydelight/models/item/udon_noodles.json
+// 1.20.1	2024-02-25T10:33:48.180695	FancyDelight/Model Definitions
 c09af35649e5b429883f361f8462b8a6a5abdac2 assets/fancydelight/models/item/estrogen_burger.json
-17caebddc6510b625b35f18bc39c014b20c156ac assets/fancydelight/models/item/clam_chowder.json
 e3d5a1598ed2ee61f01e17e4c7643d73cf870726 assets/fancydelight/models/item/estrogen_waffle.json
 7d81e251eac1ca97cdf13f79a37c8f00a332c09e assets/fancydelight/models/item/pretzel.json
 c4ef70579cb948328aaacbddff1314a637f591a2 assets/fancydelight/models/item/wide_bread.json
-cbeaf9fa23aff60fef0fa61df4c79fb3f0b7fa11 assets/fancydelight/models/item/sushi.json
-c9ad6f4bc8505e09959b1e409da92069f91b6d5f assets/fancydelight/models/item/pulla.json
+5ca35a133eb47a5728ec26d000bf5359c0e2bbd7 assets/fancydelight/models/item/rice_pudding.json
+4c470e1c9cb68419cbbe3f1b39e333c6fde5c2e3 assets/fancydelight/models/item/flour.json
 650658b04f88cd8d8356f9290b9c142589e7ee47 assets/fancydelight/models/item/ice_cream.json
+5b4729253e18a602c7a865366d70adb80e2dc2bb assets/fancydelight/models/item/katsu_curry.json
+ed7ae37af60da2d229dce72429ef4ca352c858ba assets/fancydelight/models/item/udon_noodles.json
+5fe8a3d7e870a78154f4cc223cf52687b151dc18 assets/fancydelight/models/item/fried_rice.json
+17caebddc6510b625b35f18bc39c014b20c156ac assets/fancydelight/models/item/clam_chowder.json
+422b85396cf0971d0faa09b2876c47fb14b2c434 assets/fancydelight/models/item/chocolate_bar.json
+a6c151ede58fe0da91de8c4954a60ff8fba4aef2 assets/fancydelight/models/item/pesto_pasta.json
+32f70ad790cdabd856f04501a4cc2747a10c2a5a assets/fancydelight/models/item/chocolate_lava_cake.json
+c9ad6f4bc8505e09959b1e409da92069f91b6d5f assets/fancydelight/models/item/pulla.json
+cbeaf9fa23aff60fef0fa61df4c79fb3f0b7fa11 assets/fancydelight/models/item/sushi.json

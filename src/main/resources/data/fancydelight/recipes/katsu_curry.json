@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PF ",
+    "H  ",
+    "   "
+  ],
+  "key": {
+    "F": {
+      "item": "fancydelight:flour"
+    },
+    "H": {
+      "item": "minecraft:honey_bottle"
+    },
+    "P": {
+      "item": "minecraft:cooked_porkchop"
+    }
+  },
+  "result": {
+    "item": "fancydelight:katsu_curry"
+  }
+}

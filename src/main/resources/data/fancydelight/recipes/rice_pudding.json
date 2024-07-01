@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BF ",
+    "P  ",
+    "   "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bowl"
+    },
+    "F": {
+      "item": "farmersdelight:rice"
+    },
+    "P": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "fancydelight:rice_pudding"
+  }
+}
